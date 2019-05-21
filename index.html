@@ -3,29 +3,51 @@
 <head>
   <meta vhardet="UTF-8">
   <link rel="stylesheet" href="css/main.css">
-
   <title>CSS and HTML Review</title>
 </head>
 <body>
-  <h1>All about CSS and HTML</h1>
+  <h1>All about CSS and HTML (and Flexbox)</h1>
 
   <main>
-    <header>
-      <h2>Welcome to my awesome site!</h2>
-      <nav>
-        <ul>
-          <li class='nav-button'><a href="index.html">Home</a></li>
-          <li class='nav-button'>About</li>
-          <li class='nav-button'>Links</li>
-        </ul>
+    <header id="main-header">
+      <nav id="nav-con">
+        <h2 class="hidden">main navigation</h2>
+        <!-- This is a comment -->
+        <div id="main-nav"></div>
+        <div id="sub-nav"></div>
       </nav>
+      <div id="logo"></div>
     </header>
+    <section id="featured-content">
+      <h2 class="hidden">Featured product</h2>
+      <div class="featured-image"></div>
+      <p id="featured-image-description"></p>
+    </section>
+
+    <section id="hero-image">
+      <h2 class="hidden">Wide angle shot of product</h2>
+    </section>
+
+    <section id="promo-container">
+      <h2 class="hidden">Product Promotion</h2>
+      <div id="social-media-promo">
+        <section id="social-media">
+          <h2 class="hidden"></h2>
+          <div></div>
+          <div></div>
+          <div></div>
+        </section>
+        <p id="promo-text"></p>
+      </div>
+      <section id="promo-image">
+        <h2 class="hidden">Featured Product Image</h2>
+      </section>
+    </section>
+
+    <!-- end social media promo -->
   </main>
 
-  <footer>
-    <h2 class="hidden"></h2>
-    <p>footer</p>
-  </footer>
+  <footer id="main-footer"></footer>
 
   <script src="js/main.js"></script>
 </body>
